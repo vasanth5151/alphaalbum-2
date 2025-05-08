@@ -5,37 +5,37 @@ const UnlimitedAlbumsSection = () => {
   const albumImages = [
     {
       id: 1,
-      src: "src/images/album1.jpg",
+      src: "/images/album1.jpg",
       alt: "Classic leather wedding album",
       title: "Classic Leather"
     },
     {
       id: 2,
-      src: "src/images/album10.jpg",
+      src: "/images/album10.jpg",
       alt: "Modern acrylic wedding album",
       title: "Modern Acrylic"
     },
     {
       id: 3,
-      src: "src/images/album4.jpg",
+      src: "/images/album4.jpg",
       alt: "Vintage velvet wedding album",
       title: "Vintage Velvet"
     },
     {
       id: 4,
-      src: "src/images/album5.jpg",
+      src: "/images/album5.jpg",
       alt: "Layflat wedding album",
       title: "Layflat Design"
     },
     {
       id: 5,
-      src: "src/images/album2.jpg",
+      src: "/images/album2.jpg",
       alt: "Premium wedding album box set",
       title: "Premium Box Set"
     },
     {
       id: 6,
-      src: "src/images/album9.jpg",
+      src: "/images/album9.jpg",
       alt: "Custom embossed wedding album",
       title: "Custom Embossed"
     }

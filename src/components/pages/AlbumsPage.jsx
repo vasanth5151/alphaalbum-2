@@ -4,12 +4,12 @@ import { FaSearch, FaFilter, FaChevronLeft, FaChevronRight } from 'react-icons/f
 const AlbumsPage = () => {
   // Sample album data
   const [albums, setAlbums] = useState([
-    { id: 1, title: 'Summer Vacation', photos: 24, date: '2023-06-15', cover: 'src/images/album2.jpg' },
-    { id: 2, title: 'Wedding Day', photos: 56, date: '2023-05-20', cover: 'src/images/album4.jpg' },
-    { id: 3, title: 'Family Reunion', photos: 42, date: '2023-04-10', cover: 'src/images/album5.jpg' },
-    { id: 4, title: 'Mountain Trip', photos: 38, date: '2023-03-05', cover: 'src/images/album2.jpg' },
-    { id: 5, title: 'Beach Party', photos: 31, date: '2023-02-18', cover: 'src/images/album8.jpg' },
-    { id: 6, title: 'Birthday Celebration', photos: 27, date: '2023-01-12', cover: 'src/images/album9.jpg' },
+    { id: 1, title: 'Summer Vacation', photos: 24, date: '2023-06-15', cover: '/images/album2.jpg' },
+    { id: 2, title: 'Wedding Day', photos: 56, date: '2023-05-20', cover: '/images/album4.jpg' },
+    { id: 3, title: 'Family Reunion', photos: 42, date: '2023-04-10', cover: '/images/album5.jpg' },
+    { id: 4, title: 'Mountain Trip', photos: 38, date: '2023-03-05', cover: '/images/album2.jpg' },
+    { id: 5, title: 'Beach Party', photos: 31, date: '2023-02-18', cover: '/images/album8.jpg' },
+    { id: 6, title: 'Birthday Celebration', photos: 27, date: '2023-01-12', cover: '/images/album9.jpg' },
   ]);
 
   // Pagination state

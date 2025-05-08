@@ -17,7 +17,7 @@ export default function AlbumsGallery() {
           {/* First Album Image (Square) */}
           <div className="relative group overflow-hidden rounded-xl shadow-lg">
             <img 
-              src="src/images/album6.jpg" 
+              src="/images/album6.jpg" 
               loading="lazy" 
               alt="Elegant wedding album design" 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -33,7 +33,7 @@ export default function AlbumsGallery() {
           {/* Second Album Image (Tall) */}
           <div className="relative group overflow-hidden rounded-xl shadow-lg md:row-span-2">
             <img 
-              src="src/images/album5.jpg" 
+              src="/images/album5.jpg" 
               loading="lazy" 
               alt="Modern wedding album" 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

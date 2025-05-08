@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const VideoHeroWithFAQ = () => {
   const videoRef = useRef(null);
@@ -55,7 +56,7 @@ const VideoHeroWithFAQ = () => {
             poster="https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67b7593e11fff715b31b8492_video%20left-poster-00001.jpg"
           >
             <source 
-              src="src/images/albumvedio.webm" 
+              src="/images/albumvedio.webm" 
               type="video/webm" 
             />
           </video>
@@ -121,9 +122,11 @@ const VideoHeroWithFAQ = () => {
             <p className="text-gray-600 mb-6">
               Didn't find your answer? We're happy to help.
             </p>
-            <button className="cursor-pointer bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full font-medium transition-colors">
-              Contact Our Team
-            </button>
+            <Link
+            to="/contact"
+            className="cursor-pointer bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full font-medium transition-colors inline-block" >
+            Contact Our Team
+          </Link>
           </div>
         </div>
       </section>
