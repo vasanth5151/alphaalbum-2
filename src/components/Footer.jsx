@@ -11,7 +11,7 @@ const Footer = () => {
           
           {/* About Section */}
           <div className="col-span-2">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4 font-display">Alpha Albums</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4 font-display">Albums by Zerogravity</h3>
             <p className="text-gray-600 text-sm mb-4">
               The most beautiful way to preserve your wedding memories. 
               Premium albums crafted with love and attention to detail.
@@ -75,7 +75,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-4 mb-4 md:mb-0">
             <FaCamera className="h-6 w-6 text-pink-600" />
-              <span className="text-lg font-semibold text-gray-900">Alpha Albums</span>
+              <span className="text-lg font-semibold text-gray-900">Albums by Zerogravity</span>
             </div>
             
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
@@ -86,7 +86,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-500 text-sm mt-4 md:mt-0">
-              © {new Date().getFullYear()} Alpha Albums. All rights reserved.
+              © {new Date().getFullYear()} Albums by Zerogravity. All rights reserved.
             </p>
           </div>
         </div>

@@ -38,7 +38,7 @@ export default function PhotoGallery() {
           <div className="flex flex-col justify-between">
           <div className="max-w-sm">
   <p className="text-gray-700 mb-6">
-    <strong>WeddingFrames</strong> provides the perfect home for your precious moments. 
+    <strong>Albums by Zerogravity</strong> provides the perfect home for your precious moments. 
     Preserve, organize, and beautifully display your wedding memories in 
     stunning albums that tell your unique love story.
   </p>

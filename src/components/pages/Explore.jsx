@@ -52,7 +52,7 @@ const Explore = () => {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
           <img 
-            src="/images/album2.jpg" 
+            src="/images/album3.jpg" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -70,7 +70,7 @@ const Explore = () => {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
           <img 
-            src="/images/album2.jpg" 
+            src="/images/album4.jpg" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -88,7 +88,7 @@ const Explore = () => {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
           <img 
-            src="/images/album2.jpg" 
+            src="/images/album6.jpg" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -106,7 +106,7 @@ const Explore = () => {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
           <img 
-            src="/images/album2.jpg" 
+            src="/images/album7.jpg" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -124,7 +124,7 @@ const Explore = () => {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
           <img 
-            src="/images/album2.jpg" 
+            src="/images/album8.jpg" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />

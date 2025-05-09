@@ -86,8 +86,8 @@ const ContactPage = () => {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Office</h3>
-                  <p className="mt-1 text-gray-600">1234 Photo Lane</p>
-                  <p className="text-gray-600">San Francisco, CA 94107</p>
+                  <p className="mt-1 text-gray-600">42, 50, Josier St, Tirumurthy Nagar,</p>
+                  <p className="text-gray-600">Nungambakkam, Tamil Nadu 600034</p>
                 </div>
               </div>
             </div>

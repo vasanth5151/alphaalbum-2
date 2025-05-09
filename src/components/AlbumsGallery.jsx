@@ -50,7 +50,7 @@ export default function AlbumsGallery() {
           <div className="flex flex-col justify-between">
             <div className="max-w-sm">
               <p className="text-gray-700 mb-6">
-                <strong>WeddingFrames</strong> preserves your most precious moments in 
+                <strong>Albums by Zerogravity</strong> preserves your most precious moments in 
                 stunning albums that tell your unique love story. Our community 
                 of photographers creates heirloom-quality albums you'll cherish forever.
               </p>
@@ -98,7 +98,8 @@ export default function AlbumsGallery() {
             <div>
               <p className="font-medium text-gray-900">Michael T.</p>
               <p className="text-gray-600 mt-1">
-                "As a wedding photographer, I only trust WeddingFrames for my 
+                "As a wedding photographer, I only trust Albums by Zerogravity
+                for my 
                 clients' albums. The premium quality makes my work shine."
               </p>
             </div>

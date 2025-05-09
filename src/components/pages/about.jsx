@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            About <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-amber-200">Alpha Albums</span>
+            About <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-amber-200">Albums by Zerogravity</span>
           </h1>
           <p className="text-xl text-purple-100 max-w-3xl mx-auto">
             Where music meets visual artistry in perfect harmony
