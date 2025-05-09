@@ -64,55 +64,33 @@ export default function Navbar() {
                   }`
                 }
               >
-                Albums
+                Albums 
               </NavLink>
+
+
               <NavLink 
-                to="/contact" 
+                to="/designinfo" 
                 className={({ isActive }) => 
                   `font-medium transition-colors ${
                     isActive ? 'text-pink-600' : 'text-gray-700 hover:text-pink-600'
                   }`
                 }
               >
-                Contact
+                Design info
+              </NavLink>
+              <NavLink 
+                to="/about" 
+                className={({ isActive }) => 
+                  `font-medium transition-colors ${
+                    isActive ? 'text-pink-600' : 'text-gray-700 hover:text-pink-600'
+                  }`
+                }
+              >
+                About
               </NavLink>
               
-              {/* Create Dropdown */}
-              <div className="relative" ref={createMenuRef}>
-                <button 
-                  onClick={() => setCreateMenuOpen(!createMenuOpen)}
-                  className="flex items-center text-gray-700 hover:text-pink-600 font-medium focus:outline-none"
-                >
-                  <span>Create</span>
-                  <FaChevronDown className={`ml-1 text-xs transition-transform duration-200 ${createMenuOpen ? 'transform rotate-180' : ''}`} />
-                </button>
-                
-                {createMenuOpen && (
-                  <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
-                    <Link 
-                      to="/create-album" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-pink-600"
-                      onClick={() => setCreateMenuOpen(false)}
-                    >
-                      New Album
-                    </Link>
-                    <Link 
-                      to="/upload-photos" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-pink-600"
-                      onClick={() => setCreateMenuOpen(false)}
-                    >
-                      Upload Photos
-                    </Link>
-                    <Link 
-                      to="/create-story" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-pink-600"
-                      onClick={() => setCreateMenuOpen(false)}
-                    >
-                      Create Story
-                    </Link>
-                  </div>
-                )}
-              </div>
+              
+              
             </div>
           </div>
           
@@ -129,65 +107,21 @@ export default function Navbar() {
             </div>
             
             
-            {/* User Actions */}
-            <div className="flex items-center space-x-4">
-              <button 
-                onClick={() => navigate('/favorites')}
-                className="text-gray-700 hover:text-pink-600 relative transition-colors duration-200"
-              >
-                <FaHeart className="text-xl" />
-                <span className="absolute -top-1 -right-1 bg-pink-600 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">3</span>
-              </button>
-              <button 
-                onClick={() => navigate('/notifications')}
-                className="text-gray-700 hover:text-pink-600 relative transition-colors duration-200"
-              >
-                <FaBell className="text-xl" />
-                <span className="absolute -top-1 -right-1 bg-pink-600 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">5</span>
-              </button>
+            {/* contact us */}
+            <div className="flex items-center space-x-4"> 
               
-              {/* User Dropdown */}
-              <div className="relative" ref={userMenuRef}>
-                <button 
-                  onClick={() => setUserMenuOpen(!userMenuOpen)}
-                  className="flex items-center text-gray-700 hover:text-pink-600 focus:outline-none transition-colors duration-200"
-                >
-                  <div className="h-8 w-8 rounded-full bg-pink-100 flex items-center justify-center hover:bg-pink-200 transition-colors duration-200">
-                    <FaUser className="text-pink-600" />
-                  </div>
-                </button>
+            <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              `block w-full text-center font-medium transition-colors px-4 py-3 rounded-md ${
+                isActive ? 'bg-pink-600 text-white' : 'bg-pink-500 text-white hover:bg-pink-600'
+              }`
+            }
+          >
+            Contact
+          </NavLink>
                 
-                {userMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
-                    <Link 
-                      to="/profile" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-pink-600"
-                      onClick={() => setUserMenuOpen(false)}
-                    >
-                      Your Profile
-                    </Link>
-                    <Link 
-                      to="/help" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-pink-600"
-                      onClick={() => setUserMenuOpen(false)}
-                    >
-                      Help
-                    </Link>
-                    <div className="border-t border-gray-100"></div>
-                    <button 
-                      onClick={() => {
-                        // Handle sign out logic
-                        navigate('/login');
-                        setUserMenuOpen(false);
-                      }}
-                      className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-pink-600"
-                    >
-                      Sign out
-                    </button>
-                  </div>
-                )}
-              </div>
-              
+                     
               {/* Mobile Menu Button */}
               <button 
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
