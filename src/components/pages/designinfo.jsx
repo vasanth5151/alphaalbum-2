@@ -48,7 +48,7 @@ const DesignInfo = () => {
   ];
 
   return (
-    <div className="bg-[#fafafa]">
+    <div className="bg-[#fafafa] font-[Outfit]">
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-indigo-900 to-purple-800 overflow-hidden">
         <div className="absolute inset-0 opacity-10">

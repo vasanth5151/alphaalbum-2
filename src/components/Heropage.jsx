@@ -8,14 +8,15 @@ export default function Heropage() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left Side - Content */}
           <div className="md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-[Outfit]">
               The Best Place to Find <span className="text-pink-600">Albums</span> Online
             </h1>
             
-            <p className="text-lg text-gray-600 font-script">
+            <p className="text-lg text-gray-600 font-[Outfit]">
               Discover beautiful wedding albums from top photographers. 
               Preserve your precious memories in stunning designs that last a lifetime.
             </p>
+            
             
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="relative flex-grow">

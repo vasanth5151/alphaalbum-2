@@ -7,18 +7,15 @@ module.exports = {
     ],
     theme: {
       extend: {
-        
+       
+        boxShadow: {
+          'luxury': '0 20px 50px -10px rgba(0, 0, 0, 0.1)',
+        }, 
         fontFamily: {
           
-          'display': [
-            '"Playfair Display"', 
-            'Georgia',           
-            'serif'            
-          ],
+          display: ['Outfit', 'sans-serif'],
            
         },
-        
-       
         fontSize: {
         
           'wedding-hero': ['5rem', {
@@ -28,9 +25,7 @@ module.exports = {
           }],
           
           
-          'lead': ['1.25rem', {
-            lineHeight: '1.6'
-          }]
+          
         }
       },
     },

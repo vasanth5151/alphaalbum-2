@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
          
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-6 font-[Outfit]">
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <FaCamera className="text-pink-600 text-3xl" />

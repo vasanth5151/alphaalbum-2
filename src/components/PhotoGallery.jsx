@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PhotoGallery() {
   return (
-    <section className="px-6 py-16 md:py-24 bg-white">
+    <section className="px-6 py-16 md:py-24 bg-white font-[Outfit]">
       <div className="max-w-7xl mx-auto">
         {/* Grid Layout - 3 columns on desktop, 1 column on mobile */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

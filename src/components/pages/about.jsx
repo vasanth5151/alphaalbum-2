@@ -4,7 +4,7 @@ import aboutImage2 from '/images/album8.jpg';
 
 const About = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white font-[Outfit]">
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-indigo-900 to-purple-800 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">

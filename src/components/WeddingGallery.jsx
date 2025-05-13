@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const WeddingGallery = () => {
@@ -48,7 +49,7 @@ const WeddingGallery = () => {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#fff5f5] via-[#fff1f1] to-[#ffe4e6]">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#fff5f5] via-[#fff1f1] to-[#ffe4e6] font-[Outfit]">
       <div className="max-w-7xl mx-auto">
         {/* Gallery Header */}
         <div className="text-center mb-16">
@@ -110,11 +111,17 @@ const WeddingGallery = () => {
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <button className="cursor-pointer px-8 py-3 bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium rounded-full hover:shadow-lg transition-all duration-300">
-            View All Collections
-          </button>
+          <Link 
+            to="/albums"
+             className="cursor-pointer bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full text-lg font-medium transition-colors">
+              View Collections
+          </Link>
           <p className="mt-4 text-lg text-gray-500">
-            Custom album designs available - <a href="#" className="text-pink-600 hover:underline">Book a consultation</a>
+            Custom album designs available - <Link
+            to="/contact"
+            className="text-pink-600 hover:underline" >
+            Book a consultation
+          </Link>
           </p>
         </div>
       </div>

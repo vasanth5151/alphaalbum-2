@@ -136,7 +136,7 @@ const AlbumsPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <div className="min-h-screen bg-gray-50 p-6 font-[Outfit]">
       {selectedAlbum ? (
         // Photo Gallery View
         <div className="fixed inset-0 bg-white z-50 overflow-y-auto p-6">

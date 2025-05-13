@@ -42,7 +42,7 @@ const VideoHeroWithFAQ = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative font-[Outfit]">
       {/* Video Hero Section */}
       <section className="relative h-screen w-full overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -72,12 +72,17 @@ const VideoHeroWithFAQ = () => {
             Handcrafted perfection that tells your unique love story.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="cursor-pointer bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full text-lg font-medium transition-colors">
-              View Collections
-            </button>
-            <button className="cursor-pointer bg-transparent border-2 border-white hover:bg-white/10 text-white px-8 py-3 rounded-full text-lg font-medium transition-colors">
-              Book Consultation
-            </button>
+            <Link 
+            to="/albums"
+            className="cursor-pointer bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full text-lg font-medium transition-colors">
+            View Collections
+            </Link>
+            <Link
+              to="/contact"
+              className="cursor-pointer bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 text-white px-8 py-3 rounded-full text-lg font-medium transition-all hover:shadow-lg hover:border-white/50"
+          >
+           Book consultation
+          </Link>
           </div>
         </div>
       </section>
