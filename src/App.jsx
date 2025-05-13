@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Heropage from './components/Heropage';
+import HeroLoaderWrapper from './components/HeroLoaderWrapper';
 import AlbumsGallery from './components/AlbumsGallery';
 import PhotoGallery from './components/PhotoGallery';
 import WeddingGallery from './components/WeddingGallery';
@@ -25,7 +25,8 @@ function App() {
           {/* Home Route */}
           <Route path="/" element={
             <>
-              <Heropage />
+              {/* <Heropage /> */}
+              <HeroLoaderWrapper />
               <AlbumsGallery />
               <PhotoGallery />
               <WeddingGallery />
