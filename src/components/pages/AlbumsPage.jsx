@@ -9,10 +9,10 @@ const AlbumsPage = () => {
       title: 'Sarah & Michael Wedding Album', 
       photos: 24, 
       date: '2023-06-15', 
-      cover: '/images/album2.jpg',
+      cover: '/images/album2.webp',
       images: Array(24).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`, // Sample images 1-5
+        url: `/images/album${(i % 5) + 1}.webp`, // Sample images 1-5
         caption: `Summer photo ${i + 1}`
       }))
     },
@@ -21,10 +21,10 @@ const AlbumsPage = () => {
       title: 'Wedding Custom Album', 
       photos: 20, 
       date: '2023-05-20', 
-      cover: '/images/album4.jpg',
+      cover: '/images/album4.webp',
       images: Array(20).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`,
+        url: `/images/album${(i % 5) + 1}.webp`,
         caption: `Wedding photo ${i + 1}`
       }))
     },
@@ -33,10 +33,10 @@ const AlbumsPage = () => {
       title: 'Anitha & John Wedding Album', 
       photos: 18, 
       date: '2024-05-20', 
-      cover: '/images/album8.jpg',
+      cover: '/images/album8.webp',
       images: Array(20).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`,
+        url: `/images/album${(i % 5) + 1}.webp`,
         caption: `Wedding photo ${i + 1}`
       }))
     },
@@ -45,10 +45,10 @@ const AlbumsPage = () => {
       title: 'Arun & Priya Wedding Album', 
       photos: 20, 
       date: '2025-03-20', 
-      cover: '/images/album9.jpg',
+      cover: '/images/album9.webp',
       images: Array(20).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`,
+        url: `/images/album${(i % 5) + 1}.webp`,
         caption: `Wedding photo ${i + 1}`
       }))
     },
@@ -57,10 +57,10 @@ const AlbumsPage = () => {
       title: 'Gokul & Priya Wedding Album', 
       photos: 22, 
       date: '2025-03-20', 
-      cover: '/images/album11.jpg',
+      cover: '/images/album11.webp',
       images: Array(20).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`,
+        url: `/images/album${(i % 5) + 1}.webp`,
         caption: `Wedding photo ${i + 1}`
       }))
     },
@@ -69,10 +69,10 @@ const AlbumsPage = () => {
       title: 'John & Sarah Wedding Album', 
       photos: 25, 
       date: '2025-03-20', 
-      cover: '/images/album12.jpg',
+      cover: '/images/album12.webp',
       images: Array(20).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`,
+        url: `/images/album${(i % 5) + 1}.webp`,
         caption: `Wedding photo ${i + 1}`
       }))
     },
@@ -81,10 +81,10 @@ const AlbumsPage = () => {
       title: 'John & Sarah Wedding Album', 
       photos: 25, 
       date: '2025-03-20', 
-      cover: '/images/album12.jpg',
+      cover: '/images/album12.webp',
       images: Array(20).fill().map((_, i) => ({
         id: i + 1,
-        url: `/images/album${(i % 5) + 1}.jpg`,
+        url: `/images/album${(i % 5) + 1}.webp`,
         caption: `Wedding photo ${i + 1}`
       }))
     },

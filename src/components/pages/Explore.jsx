@@ -32,9 +32,9 @@ const Explore = () => {
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">Featured Albums</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Album Card 1 */}
-        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
           <img 
-            src="/images/album2.jpg" 
+            src="/images/album2.webp" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -50,9 +50,9 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
           <img 
-            src="/images/album3.jpg" 
+            src="/images/album3.webp" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -68,9 +68,9 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
           <img 
-            src="/images/album4.jpg" 
+            src="/images/album4.webp" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -86,9 +86,9 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
           <img 
-            src="/images/album6.jpg" 
+            src="/images/album6.webp" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -104,9 +104,9 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
           <img 
-            src="/images/album7.jpg" 
+            src="/images/album7.webp" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -122,9 +122,9 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
           <img 
-            src="/images/album8.jpg" 
+            src="/images/album8.webp" 
             alt="Album Cover" 
             className="w-full h-48 object-cover"
           />
@@ -168,7 +168,7 @@ const Explore = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <img 
-            src="/images/album5.jpg" 
+            src="/images/album5.webp" 
             alt="Album Cover" 
             className="w-16 h-16 rounded"
           />
@@ -187,7 +187,7 @@ const Explore = () => {
 
         <div className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <img 
-            src="/images/album5.jpg" 
+            src="/images/album5.webp" 
             alt="Album Cover" 
             className="w-16 h-16 rounded"
           />

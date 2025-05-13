@@ -8,42 +8,42 @@ const WeddingGallery = () => {
       id: 1,
       title: "Classic Leather Collection",
       desc: "Timeless elegance with hand-stitched binding",
-      img: "/images/album7.jpg",
+      img: "/images/album7.webp",
       type: "Premium"
     },
     {
       id: 2,
       title: "Modern Acrylic Series",
       desc: "Sleek contemporary designs with crystal-clear pages",
-      img: "/images/album8.jpg",
+      img: "/images/album8.webp",
       type: "Bestseller"
     },
     {
       id: 3,
       title: "Vintage Velvet Edition",
       desc: "Luxurious velvet covers with gold foil detailing",
-      img: "/images/album9.jpg",
+      img: "/images/album9.webp",
       type: "Luxury"
     },
     {
       id: 4,
       title: "Destination Wedding Package",
       desc: "Custom designs inspired by your wedding location",
-      img: "/images/album10.jpg",
+      img: "/images/album10.webp",
       type: "Popular"
     },
     {
       id: 5,
       title: "Parent Album Set",
       desc: "Matching smaller albums for family members",
-      img: "/images/album11.jpg",
+      img: "/images/album11.webp",
       type: "Bundle"
     },
     {
       id: 6,
       title: "Layflat Masterpiece",
       desc: "Seamless panoramic spreads with thick museum-grade pages",
-      img: "/images/album12.jpg",
+      img: "/images/album12.webp",
       type: "Premium"
     }
   ];

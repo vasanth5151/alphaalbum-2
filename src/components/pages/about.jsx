@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutImage1 from '/images/album6.jpg'; // Update with your image paths
-import aboutImage2 from '/images/album8.jpg';
+import aboutImage1 from '/images/album6.webp'; // Update with your image paths
+import aboutImage2 from '/images/album8.webp';
 
 const About = () => {
   return (

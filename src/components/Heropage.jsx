@@ -67,7 +67,7 @@ export default function Heropage() {
               {/* First Image (larger) */}
               <div className="relative group overflow-hidden rounded-xl shadow-lg  aspect-[3/4]">
                 <img 
-                  src="/images/album2.jpg" 
+                  src="/images/album2.webp" 
                   alt="Wedding Album" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -82,7 +82,7 @@ export default function Heropage() {
               {/* Second Image (smaller) */}
               <div className="relative group overflow-hidden rounded-xl shadow-lg mt-18">
                 <img 
-                  src="/images/album1.jpg" 
+                  src="/images/album1.webp" 
                   alt="Wedding Album" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

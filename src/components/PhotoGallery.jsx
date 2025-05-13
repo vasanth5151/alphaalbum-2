@@ -19,7 +19,7 @@ export default function PhotoGallery() {
           {/* First Wedding Photo (Square Aspect) */}
           <div className="relative group overflow-hidden rounded-xl shadow-lg">
             <img 
-              src="/images/album3.jpg" 
+              src="/images/album3.webp" 
               loading="lazy" 
               alt="Wedding couple portrait" 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -47,7 +47,7 @@ export default function PhotoGallery() {
     <div className="mt-6 group">
         <div className="relative aspect-square w-full max-w-xs"> {/* Increased from w-32 h-32 */}
           <img 
-              src="/images/album4.jpg" 
+              src="/images/album4.webp" 
               alt="Sample wedding album cover" 
               className="w-full h-full object-cover rounded-lg shadow-md border-2 border-white group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
@@ -81,7 +81,7 @@ export default function PhotoGallery() {
           {/* Second Wedding Photo (Full Width) */}
           <div className="md:col-span-2 relative group overflow-hidden rounded-xl shadow-lg">
             <img 
-              src="/images/album5.jpg" 
+              src="/images/album5.webp" 
               loading="lazy" 
               alt="Wedding ceremony moment" 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
